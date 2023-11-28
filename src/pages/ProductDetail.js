@@ -4,5 +4,9 @@ export const ProductDetail = () => {
   const params = useParams();
   console.log(params.id);
 
-  return <div className="component">Product Detail - {params.id}</div>;
+  return (
+    <main>
+      <div className="component">Product Detail - {params.id}</div>
+    </main>
+  );
 };
